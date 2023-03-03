@@ -48,7 +48,7 @@ describe('User Model -- Authentication', function () {
 
     it('Authentication method should be rejected if the credentials are invalid', async function () {
       const authenticateUser = UserModel.authenticate(
-        'Dafi@admin.com',
+        'dafi@admin.com',
         'fake_password'
       )
       await expectAsync(authenticateUser).toBeRejected()

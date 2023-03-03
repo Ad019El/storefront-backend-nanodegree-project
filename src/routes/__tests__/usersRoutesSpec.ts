@@ -9,7 +9,7 @@ let authToken = ''
 
 describe('User Routes Endpoint Testing', function () {
   const user: IUser = {
-    email: 'Dafi@admin.com',
+    email: 'dafi@admin.com',
     username: 'Dafi285',
     firstname: 'Adel',
     lastname: 'Dafi',
